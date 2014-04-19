@@ -1,0 +1,100 @@
+* {
+	background-color: white;
+}
+
+div {
+	border-style: dashed 1px;
+}
+
+ul {
+	list-style: none;
+    float: right;
+}
+
+li {
+	display: inline;
+	padding:1em;
+	float:left;
+}
+
+img {
+	margin-top: 15em;
+		margin-left: 500px;
+		max-height: 150px;
+		max-width: 300px;
+		padding-left: 5em;
+}
+
+.form {
+	margin-left: 500px;
+	max-width: 400px;
+}
+
+input {
+	width: 35em;
+	border-radius: 1px;
+}
+
+#gsearch {
+	margin-left: 7em;
+	text-align: center;
+	background-color:#f2f2f2;
+	border-radius: 3px;
+	max-width: 120px;
+	float: left;
+}
+
+#gsearch:hover {
+	margin-left: 7em;
+	text-align: center;
+	background-color:#d3d3d3;
+	max-width: 120px;
+	border-radius: 3px;
+	float: left;
+}
+
+#lucky {
+	max-width: 120px;
+	text-align: center;
+	background-color:#f2f2f2;
+	float: center;
+	border-radius: 3px;
+	margin-left: 1em;
+}
+
+
+#lucky:hover {
+	max-width: 120px;
+	text-align: center;
+	background-color:#d3d3d3;
+	float: center;
+	margin-left: 1em;
+	border-radius: 3px;
+}
+
+#footer {
+	background-color: #f2f2f2;
+	line-height: 15px;
+	border-top: 1px solid #e4e4e4;
+	width: 100%;
+	max-height: 4em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	font-size: small;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+	margin-right: 30px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #777;
+}
